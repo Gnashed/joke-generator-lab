@@ -1,3 +1,8 @@
+'use client';
+
+// import Signin from '../components/SignIn';
+// import ViewDirector from '../utils/context/ViewDirector';
+
 function Home() {
   return (
     <div
@@ -9,7 +14,8 @@ function Home() {
         margin: '0 auto',
       }}
     >
-      Welcome to Next JS!
+      <h1>Welcome</h1>
+      {/* <Signin /> */}
     </div>
   );
 }
